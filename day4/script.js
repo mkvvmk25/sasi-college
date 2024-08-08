@@ -160,16 +160,159 @@
 // anynomous funs
 // arrow funs
 
-// fun without para and withut return
-function abc() {
-  console.log("hello");
-  return undefined;
-}
-// fun with para and without return
-function abcd(a, b) {
-  console.log("hello", b + a);
-  return undefined;
-}
+// fun without para and without return
+// function abc() {
+//   console.log("hello");
+//   //   return undefined;
+// }
+// // fun with para and without return
+// function abcd(a, b) {
+//   console.log("hello", b + a);
+//   //   return undefined;
+// }
 
-let f = abcd(10, 20);
-console.log(f);
+// function fun1() {
+//   return 10 + 56;
+// }
+// function fun1(a, b) {
+//   return a + b;
+// }
+
+// anyanomous funs
+// let d = function(a, b) {
+//   return a + b;
+// };
+
+// // arrow funs called as anyanomous funs
+
+// let f = (a)=>
+//     {
+//         return  a*a;
+//     }
+
+// let cub = (a)=>a**3
+
+// console.log( cub(4)  );
+
+// template strings
+// let k = 40;
+// let j = 20;
+// let s = "abc";
+// let q = s + j + k;
+// let d = `hello ${s} ${cub(3) + 10}`;
+// console.log(d);
+
+// arrays
+let arr = [true];
+
+// console.log( arr);
+// console.log( arr.length);
+// console.log( arr[0]);
+// console.log( arr[1]);
+// console.log( arr[2]);
+// console.log( arr[3]);
+
+// traversal
+// veiwing ele
+// loops
+
+// for(let i = 0; i < arr.length; i++)
+// {
+//     console.log(arr[i]);
+// }
+// arr.forEach
+// (
+//     function(ele, ind, arr)
+//     {
+//         console.log(ele, ind, arr);
+//     }
+// );
+
+// arr.push(10);
+// arr.push(20);
+// arr.push(30);
+// console.log(arr);
+// arr.shift();
+// arr.unshift(45);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+
+// JSON --> JS object Notation
+// let k = {
+//   45: "value",
+//   hello: 4.45656,
+//   "true false": 98,
+//   arr: [4, 5, true],
+//   obj: {
+//     a: 10,
+//     b: 52,
+//   },
+// };
+// k.obj
+// // let d = prompt("get 45 ?");
+// console.log(k["obj"]["a"]);
+// console.log(k.obj.a);
+
+let p = {
+  45: "value",
+  hello: 4.45656,
+  "true false": 98,
+  arr: [4, 5, true],
+  obj: {
+    a: 10,
+    b: 52,
+  },
+};
+
+// spread operator (...) --> RHS
+// rest operator (...) --> LHS
+// let s = p; // pass by refrence
+// s.hello = 100;
+// let s = p;
+// let k = { ...p }; // shallow copy
+// let d = { ...k, ...p };
+// console.log(d);
+
+// let crr = [1, 2, 3, [7, 8]];
+// let k = [...arr, ...crr];
+// // k[3][1] = 10;
+
+// console.log(crr);
+// console.log(k);
+// let obj = {
+//   a: 10,
+//   b: 20,
+//   c: {
+//     e: 2,
+//     f: 7,
+//   },
+// };
+
+// let {
+//   a: a1,
+//   b: b1,
+//   c: { e: e1, f: f1 },
+// } = obj;
+// // let d = obj.a;
+// // let da = obj.b;
+// // let dc = obj.c;
+// console.log(a1, b1, e1, f1);
+
+// let obj = {
+//   a: 10,
+//   b: 20,
+//   c: {
+//     e: 2,
+//     f: 7,
+//   },
+// };
+
+// let {a,b,...d} = obj; 
+// console.log(a);
+// console.log(b);
+// console.log(d);
+
+// let crr = [1,2,3,4,5,6];
+// let [a,b, , ,...c] = crr;
+// console.log(a,b,c); 

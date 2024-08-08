@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  border: 5px solid black;
+  font-family: sans-serif;
+}
+
+h1 {
+  padding: 20px 0px;
+  text-align: center;
+  background-color: aliceblue;
+}
+a:hover {
+  text-decoration: none;
+}
+a:link,
+a:active,
+a:visited {
+  color: black;
+}
+button {
+  background-color: black;
+  color: white;
+  border: 0px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 5px solid black;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+}
+li {
+  list-style: square;
+  margin-left: 30px;
+}
+
+.sh {
+  width: 25px;
+  height: 25px;
+}
+.sh-1 {
+  background-color: red;
+}
+.sh-2 {
+  background-color: yellow;
+}
+.sh-3 {
+  background-color: purple;
+}
+.sh-4 {
+  background-color: orange;
+}
+.sh-5 {
+  background-color: khaki;
+}
+.sh-6 {
+  background-color: salmon;
+}
+
+.shapes {
+  display: flex;
+  gap: 10px;
+}
+.sale {
+    padding: 5px 15px;
+  position: absolute;
+  background-color: red;
+  top: -15px;
+  left: -35px;
+  letter-spacing: 3px;
+  /* bottom: 10px; */
+}
+
+section 
+{
+    display: grid;
+    /* column-gap: 5%; */
+    grid-template-columns: 1fr 1fr 1fr; 
+}
+
+img 
+{
+    width: 100%;
+}
+
+.price-free 
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price-free h4 
+{
+    font-size: 28px;
+}
+.price-free p 
+{
+    color: grey;
+}
+
+.art-2, .art-3
+{
+    padding: 25px;
+}
