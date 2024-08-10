@@ -4,12 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 800px;
+      }
+      .grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .sm {
+        margin: 10px;
+      }
+    </style>
   </head>
-  <body>
-    <h1>OOPS</h1>
 
-    <script src="script1.js">
-      console.log("helo789")
-    </script>
+  <body>
+    <h1>Asynchronous Javascript</h1>
+    <div class="container">
+      <div class="submit">
+        <input type="text" class="inp" value="in" />
+        <button class="btn">submit</button>
+      </div>
+      <div class="grid"></div>
+    </div>
+    <script src="script3.js"></script>
   </body>
 </html>
