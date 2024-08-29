@@ -1,0 +1,107 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	border-top: 10px solid blue;
+	font-family: sans-serif;
+	background-color: azure;
+}
+
+.container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: antiquewhite;
+}
+
+.header {
+	margin-bottom: 80px;
+	display: flex;
+	justify-content: space-between;
+	padding: 25px 50px;
+	align-items: center;
+	background-color: aquamarine;
+}
+
+.header-nav {
+	display: flex;
+	gap: 10px;
+	/* background-color: blueviolet; */
+}
+
+.header h1 {
+	/* display: inline; */
+    font-style: italic;
+    font-weight: 600;
+    font-size: 32px;
+	background-color: gold;
+}
+.header-nav a:link {
+	color: goldenrod;
+	text-decoration: none;
+}
+
+.header-nav a:hover {
+	/* background-color: brown; */
+	text-decoration: underline;
+}
+
+.header-nav a:visited {
+	color: black;
+}
+.header-nav a:active 
+{
+    color: red;
+    background-color: yellow;
+}
+/* .header-nav a 
+{
+    color: aliceblue;
+    background-color: yellow;
+    margin-right: 10px;
+}
+
+.header-nav a:last-child
+{
+    background-color: red;
+    margin-right: 0px;
+} */
+.section-1 
+{
+    width: 75%;
+    background-color: aquamarine;
+}
+
+.section-1-img 
+{
+    width: 50px;
+    height: 50px;
+}
+.section-1-img-text 
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.section-1-h1 
+{
+    margin-bottom: 20px;
+}
+
+.section-1-big-img 
+{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* https://bit.ly/SS-290824 */
+
+/* CSE(A & C) 5D3 to 5E4 
+    -> N-block 2nd floor 23203 
+    
+   CSE(C) 5E5 to 5G9 
+    -> N-block G-floor floor 23003 
+*/
