@@ -1,0 +1,38 @@
+.sh-1 {
+	width: 50px;
+	height: 80px;
+	background-color: red;
+}
+.sh-2 {
+	width: 100px;
+	height: 120px;
+	background-color: orange;
+}
+.sh-3 {
+  justify-self: end;
+	width: 90px;
+	height: 40px;
+	background-color: purple;
+}
+.sh-4 {
+  align-self: start;
+	width: 75px;
+	height: 30px;
+	background-color: yellow;
+}
+.sh-5 {
+	width: 25px;
+	height: 150px;
+	background-color: green;
+}
+
+.shapes 
+{
+  display: flex;
+  width: 500px;
+  height: 300px;
+  /* gap: 20px; */
+  align-items: center;
+  justify-content: space-between;
+  background-color: antiquewhite;
+}

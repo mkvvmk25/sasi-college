@@ -1,0 +1,68 @@
+/* universal selector */
+* {
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: sans-serif;
+	border-top: 10px solid blue;
+}
+.container {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: aquamarine;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 15px;
+	align-items: center;
+	background-color: rgb(229, 226, 221);
+	margin-bottom: 25px;
+}
+.header-nav {
+	display: flex;
+	gap: 15px;
+}
+
+/* link 
+	hover
+	active
+	visited */
+.header-nav a:link {
+	color: black;
+	text-decoration: none;
+}
+.header-nav a:visited {
+	color: orange;
+}
+
+/* pseudo classes */
+.header-nav a:hover {
+	font-weight: 700;
+	color: cadetblue;
+	text-decoration: underline;
+}
+
+.header-nav a:active {
+	color: red;
+	text-decoration: none;
+}
+.section-1 {
+	background-color: rgb(112, 112, 142);
+}
+.section-1-h2 {
+	margin-bottom: 15px;
+}
+.section-1-art 
+{
+		display: flex;
+		gap: 20px;
+		align-items: center;
+		margin-bottom: 20px;
+}
+
+/* https://bit.ly/SS-060924  */
