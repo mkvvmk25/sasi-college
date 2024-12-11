@@ -1,0 +1,6 @@
+npm install
+
+
+
+
+type command after opening the folder to install the node modules
